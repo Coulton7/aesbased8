@@ -7,14 +7,14 @@
  * Place your custom PHP code in this file.
  */
 
- function aesbasetheme_preprocess_page(&$vars) {
+ function aesbased8_preprocess_page(&$vars) {
      // template files called page--contenttype.tpl.php
      if (isset($vars['node']->type)) {
          $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
      }
  }
 
- function aesbasetheme_preprocess_search_api_page_result(&$vars){
+ function aesbased8_preprocess_search_api_page_result(&$vars){
    $nid = $id;
    $node = node_load($nid);
    $nodeType = $node->type;
@@ -58,15 +58,15 @@
   endswitch;
  }
 
- function aesbasetheme_theme(){
+ function aesbased8_theme(){
  	$items=array();
 
  	$items['user_login']=array(
  	'render element' => 'form',
- 	'path'=> drupal_get_path('theme', 'aesbasetheme').'/templates',
+ 	'path'=> drupal_get_path('theme', 'aesbased8').'/templates',
  	'template'=>'user_login',
  	'preprocess functions'=>array(
- 	'aesbasetheme_preprocess_user_login'
+ 	'aesbased8_preprocess_user_login'
  	),
  	);
  	return $items;

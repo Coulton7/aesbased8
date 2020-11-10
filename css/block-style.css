@@ -95,7 +95,7 @@
 .blockquote {
   margin: 0 5em 0 5em;
   color: #002A5B;
-  background-image: url(/sites/all/themes/aesbasetheme/images/graphics/blockquote-top.png), url(/sites/all/themes/aesbasetheme/images/graphics/blockquote-bottom.png);
+  background-image: url(/sites/all/themes/aesbased8/images/graphics/blockquote-top.png), url(/sites/all/themes/aesbased8/images/graphics/blockquote-bottom.png);
   background-position: -0.5% 0%, 98.7% 100%;
   background-repeat: no-repeat;
   padding: 1.7em
@@ -177,7 +177,7 @@
   background: #004a8c;
   background-image: -moz-linear-gradient(-45deg, #004a8c 0%, #002a5b 41%, #004a8c 100%);
   background-image: -webkit-linear-gradient(-45deg, #004a8c 0%, #002a5b 41%, #004a8c 100%);
-  background-image: url(/sites/all/themes/aesbasetheme/images/graphics/section-shadow.png), linear-gradient(135deg, #004a8c 0%, #002a5b 41%, #004a8c 100%);
+  background-image: url(/sites/all/themes/aesbased8/images/graphics/section-shadow.png), linear-gradient(135deg, #004a8c 0%, #002a5b 41%, #004a8c 100%);
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#004a8c', endColorstr='#004a8c', GradientType=1);
   display: flex;
   list-style-type: none;
@@ -365,7 +365,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
 }
 
 .section-shadow {
-  background-image: url(/sites/all/themes/aesbasetheme/images/graphics/section-shadow.png);
+  background-image: url(/sites/all/themes/aesbased8/images/graphics/section-shadow.png);
   height: 1em;
   list-style-type: none;
   background-repeat: no-repeat;
@@ -373,7 +373,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', end
 }
 
 .water-background {
-  background-image: url(/sites/all/themes/aesbasetheme/images/graphics/water-background.jpg);
+  background-image: url(/sites/all/themes/aesbased8/images/graphics/water-background.jpg);
   background-repeat: no-repeat;
   border: 5px solid #ffffff;
   background-size: 100%;

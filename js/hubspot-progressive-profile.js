@@ -18,8 +18,8 @@ $(document).ready(function () {
 
   		// We get our customer info using a php script called simple proxy, read about it here: https://github.com/cowboy/php-simple-proxy/
   		// It lets us fetch JSON data via javascript without cross domain errors
-  		//  		$.getJSON('../sites/all/themes/aesbasetheme/js/ba-simple-proxy.php?url=http://api.hubapi.com/contacts/v1/contact/utk/'+hubspotutk+'/profile?hapikey=eb430742-5ec5-4dd5-a2b3-e0dabcfe7c7d',
-  		$.getJSON('/sites/all/themes/aesbasetheme/js/ba-simple-proxy.php?url=https://api.hubapi.com/contacts/v1/contact/utk/'+hubspotutk+'/profile?hapikey=58e45a37-44c9-4b50-bc17-28281538a59a',
+  		//  		$.getJSON('../sites/all/themes/aesbased8/js/ba-simple-proxy.php?url=http://api.hubapi.com/contacts/v1/contact/utk/'+hubspotutk+'/profile?hapikey=eb430742-5ec5-4dd5-a2b3-e0dabcfe7c7d',
+  		$.getJSON('/sites/all/themes/aesbased8/js/ba-simple-proxy.php?url=https://api.hubapi.com/contacts/v1/contact/utk/'+hubspotutk+'/profile?hapikey=58e45a37-44c9-4b50-bc17-28281538a59a',
   		function(json) { //Parse the json we just got
   			console.log(json); //Get rid of this when it's working, it throws the entire JSON string into the log.
 
