@@ -2,7 +2,7 @@ type: theme
 base theme: bootstrap
 core: 8.x
 core_version_requirement: ^8 || ^9
-version: ^1.1
+version: 8.x-1.1
 
 name: 'aesbased8'
 description: 'A Drupal Bootstrap 3 based sub-theme.'
