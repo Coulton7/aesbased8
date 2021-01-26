@@ -3,10 +3,6 @@ _hsq.push(['trackEvent', {
   value: closed
 }]);
 
-$(document).ready(function() {
-
-});
-
 (function($) {
 $(document).ready(function(){
   if(localStorage.getItem('vexClosed') != 'closed'){
